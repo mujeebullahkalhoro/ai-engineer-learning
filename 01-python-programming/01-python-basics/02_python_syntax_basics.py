@@ -50,3 +50,14 @@ AI
 
 
 print("A", "B", "C", sep=" | ")
+
+
+
+name=input("Enter your name: ")
+print("Hello, " + name + "! Welcome to Python programming.")
+
+# by input return string value so we need to convert it into int or float if we want to use it in mathematical operation
+age = int(input("Enter your age: "))
+
+print(type(age))
+
